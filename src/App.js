@@ -37,7 +37,7 @@ const App = () => {
 console.log(data);
   return (
     <div className="App">
-      <Header>React Wars   ></Header>
+      <Header>React Wars   {'>'}</Header>
       <AccBody>
         { data && data.map((e, index) => {
           return (
